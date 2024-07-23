@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public class Mentoria extends Conteudo {
     LocalDate data;
 
-    //A classe mãe obriga os filhos usarem os seus metodos.
+    //A classe "mãe" obriga os filhos usarem os seus metodos.
     //
     @Override
     public double calcularXp() {

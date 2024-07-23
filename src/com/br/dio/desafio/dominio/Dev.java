@@ -22,10 +22,10 @@ public class Dev {
         bootcamp.getDevsInscritos().add(this);
     }
 
+
     //metodo que mostra a progressao do incrito Dev
     // pega tudo de conteudosInscritos e coloca dentro de conteudosConcluidos.
     // Se o conteudo existe, add (get) e remove da lista (para pegar) se nao "err".
-
     public void progredir (){
         Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
         if(conteudo.isPresent()){

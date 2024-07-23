@@ -8,7 +8,7 @@ public class Curso extends Conteudo {
     }
 
 
-    // Por defaul, existe off o construtor vazio da classe.
+    // Por defaul, existe em off o construtor vazio da classe.
     public Curso() {
     }
     public int getCargaHoraria() {
